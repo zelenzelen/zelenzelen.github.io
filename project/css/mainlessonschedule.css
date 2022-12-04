@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, header {
+	height: 100%;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+
+}
+
+body {
+	background: rgb(176, 109, 29);
+}
+
+.text {
+	font-weight: 700;
+	padding: 25px;
+	display: block;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	font-size: 5rem;
+}
+
+.img {
+	width: 100%;
+}
+
+.gohome {
+	font-weight: 700;
+	padding: 25px;
+	display: block;
+	text-align: left;
+	color: white;
+	text-decoration: none;
+	font-size: 5rem;
+}
