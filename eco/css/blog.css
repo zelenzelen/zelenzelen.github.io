@@ -1,0 +1,164 @@
+@media all and (min-width: 1001px) {
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body, header {
+	height: 100%;
+}
+
+html {
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.bag {
+	background: url(../img/forest.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 750px;
+	border-radius: 0px 0px 50px 50px;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-backdrop-filter: blur(25px);
+	-moz-backdrop-filter: blur(25px);
+  	backdrop-filter: blur(25px);
+  	box-shadow: 0px 0px 100px 25px #000000;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+
+.imglogo {
+	width: 100px;
+}
+
+.topnav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navlink {
+	text-decoration: none;
+	color: white;
+	margin: 10px 15px;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+.headertext {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	margin-top: 180px;
+	font-size: 96px;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 900;
+	text-shadow: 0px 0px 50px #000000;
+}
+
+.savethetrees {
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 50px;
+	width: 360px;
+	height: 360px;
+}
+
+.imgsavethetrees {
+	width: 360px;
+	height: 260px;
+	border-radius: 50px;
+	box-shadow: 0px 50px 100px 10px #314726;
+	display: block;
+	margin: auto;
+}
+
+.textsavethetrees {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 48px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.savetheearth {
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 50px;
+	width: 360px;
+	height: 360px;
+}
+
+.imgsavetheearth {
+	width: 360px;
+	height: 260px;
+	border-radius: 50px;
+	box-shadow: 0px 50px 100px 10px #0D1525;
+	display: block;
+	margin: auto;
+}
+
+.textsavetheearth {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 48px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.savetheocean {
+	margin: auto;
+	margin-top: 50px;
+	border-radius: 50px;
+	width: 360px;
+	height: 360px;
+}
+
+.imgsavetheocean {
+	width: 360px;
+	height: 260px;
+	border-radius: 50px;
+	box-shadow: 0px 50px 100px 10px #2E4F5B;
+	display: block;
+	margin: auto;
+}
+
+.textsavetheocean {
+	text-align: center;
+	margin-top: 15px;
+	font-size: 48px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.bar {
+	width: 100%;
+	height: 50px;
+}
+
+.wrapperSave {
+	display: flex;
+	flex-wrap: wrap;
+}
+}
+
+
+
+
+
+
